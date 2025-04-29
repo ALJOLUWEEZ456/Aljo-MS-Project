@@ -1,0 +1,232 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+   background-color:blue ;
+   display:  flex;
+   height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    position: fixed;
+    background-color: pink;
+    width: 100%;
+    padding: 20px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+}
+
+.nav ul li{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightpink;
+    width: 100%;
+    padding: 20px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+
+}
+
+.nav ul li{
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+/*CONTAINER*/
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 10%;
+    padding: 12px 24px;        
+    background-color: #007bff;   
+    color: white;                
+    border: none;             
+    font-size: 16px;             
+    cursor: pointer;             
+    transition: all 0.3s ease;   
+  }
+
+/*ABOUT ME SECTION*/
+
+#about {
+    background-color: #f9f9f9;
+    padding: 60px 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#about h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #007acc;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+        
+    
+
+#projects {
+    background-color: #f0f4f8;
+    padding: 60px 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#projects h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#projects h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #007acc;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#projects li a {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-decoration: none;
+    color: #007acc;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#projects li a:hover {
+    background-color: #007acc;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 60px 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+
+}
+
+#about p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #fff; /* White text */
+
+}
+
+#projects li a {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-decoration: none;
+    color: black; /* Changed from #007acc to black */
+    font-size: 18px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
